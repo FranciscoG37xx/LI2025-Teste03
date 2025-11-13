@@ -1,0 +1,66 @@
+NOME: Francisco Garrido
+NMEC: 132667
+
+git clone https://github.com/FranciscoG37xx/LI2025-Teste03.git
+cd LI2025-Teste03
+mkdir A132667
+cd A132667
+echo "Teste de LI 2025/2026" > README.md
+cd ..
+git add .
+git commit -m "2ª tarefa concluída"
+git push origin main
+history -c
+git clone https://github.com/FranciscoG37xx/LI2025-Teste03.git
+cd LI2025-Teste03
+git add .
+git commit -m "3ª tarefa concluída"
+git push origin main
+git add .
+git commit -m "4ª tarefa"
+git push origin main
+
+git pull origin main
+cp index.html disciplinas.html
+git add .
+git commit -m "5ª tarefa cumprida"
+git push origin main
+git pull origin main
+git add .
+git commit -m "5ª tarefa cumprida 2"
+git push origin main
+
+git pull origin main
+history > meusComandosAzure.txt
+cat meusComandosAzure.txt
+git add .
+git commit -m "history azure"
+git push origin main
+git pull origin main
+history > meusComandosLOCAIS.txt
+cat meusComandosLOCAIS.txt
+git add .
+git commit -m "Tarefa 6 cumprida"
+git push origin main
+=============================================================================================
+ 1  ls
+    2  cd ..
+    3  cd LI2025-Teste03/
+    4  ls
+    5  git pull origin main
+    6  ls
+    7  cp index.html disciplinas.html
+    8  ls
+    9  git add .
+   10  git commit -m "5ª tarefa cumprida"
+   11  git push origin main
+   12  git commit --ammend
+   13  git commit --amend
+   14  git push origin main
+   15  clear
+   16  git pull origin main
+   17  clear
+   18  history > meusComandosAzure.txt
+
+
+
