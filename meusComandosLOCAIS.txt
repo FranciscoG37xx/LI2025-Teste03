@@ -1,0 +1,16 @@
+ cd desktop~
+ cd desktop
+ssh -i DEMOLABINFO_key.pem azureuser@4.178.190.58
+cd ..
+cd Documentos
+ls
+cd Desktop
+cd ..
+cd Documentos
+cd Documents
+ cd Github
+ cd LI2025-Teste03_Final
+ git pull origin main
+ history > meusComandosLOCAIS.txt
+ doskey /history
+ doskey /history > meusComandosLOCAIS.txt
